@@ -1,0 +1,198 @@
+{
+  "emergency_conditions": [
+    {
+      "condition": "Acute Coronary Syndrome / Heart Attack",
+      "severity": "CRITICAL_EMERGENCY",
+      "keywords": [
+        "chest pain", "crushing chest", "chest pressure", "pain in left arm",
+        "left arm numb", "left arm numbness", "arm feels numb", "pain radiating to jaw",
+        "jaw pain with chest", "chest tightness and sweating", "heart attack",
+        "chest clutching", "chest squeezing", "severe angina"
+      ],
+      "symptom_combos": [
+        ["chest", "arm"],
+        ["chest", "numb"],
+        ["chest", "jaw"],
+        ["chest", "breath"],
+        ["chest", "sweating"],
+        ["chest", "dizzy"]
+      ],
+      "patterns": [
+        "chest.*pain",
+        "pain.*left arm",
+        "left arm.*numb",
+        "crushing.*chest",
+        "chest.*pressure"
+      ],
+      "first_aid": "Call 911/112 immediately. Sit upright, rest, loosen tight clothing. If conscious and not allergic to aspirin, chew an adult 325mg aspirin. Be prepared for CPR."
+    },
+    {
+      "condition": "Acute Stroke (FAST Signs)",
+      "severity": "CRITICAL_EMERGENCY",
+      "keywords": [
+        "face drooping", "facial droop", "slurred speech", "cannot speak clearly",
+        "slurring words", "one side weak", "arm weakness", "arm numb suddenly",
+        "sudden loss of balance", "sudden blindness", "stroke", "mini stroke", "facial numbness"
+      ],
+      "symptom_combos": [
+        ["face", "droop"],
+        ["slurred", "speech"],
+        ["arm", "weak"],
+        ["one side", "weak"],
+        ["one side", "numb"],
+        ["sudden", "paralysis"]
+      ],
+      "patterns": [
+        "face.*droop",
+        "slurred.*speech",
+        "arm.*weakness"
+      ],
+      "first_aid": "Call 911/112 immediately. Note the exact time symptoms started. Keep patient calm. Do NOT give aspirin, food, or water."
+    },
+    {
+      "condition": "Severe Anaphylaxis / Allergic Reaction",
+      "severity": "CRITICAL_EMERGENCY",
+      "keywords": [
+        "throat closing", "throat swelling", "lips swelling", "tongue swollen",
+        "swollen tongue", "cannot breathe allergy", "anaphylaxis", "allergic reaction throat",
+        "epipen needed", "stridor", "severe hives with breathing"
+      ],
+      "symptom_combos": [
+        ["throat", "swell"],
+        ["lips", "swell"],
+        ["tongue", "swollen"],
+        ["breathe", "peanuts"],
+        ["allergic", "breathe"]
+      ],
+      "patterns": [
+        "throat.*swell",
+        "tongue.*swell",
+        "lips.*swell",
+        "can'?t breathe after"
+      ],
+      "first_aid": "Administer Epinephrine auto-injector (EpiPen) into outer thigh immediately. Call 911/112. Lay flat with legs elevated unless struggling to breathe."
+    },
+    {
+      "condition": "Acute Poisoning / Severe Overdose",
+      "severity": "CRITICAL_EMERGENCY",
+      "keywords": [
+        "swallowed bleach", "drank poison", "overdosed on pills", "took entire bottle",
+        "bottle of pills", "swallowed battery", "drank detergent", "poisoning", "toxic ingestion",
+        "took too many pills", "overdose paracetamol", "overdose tylenol"
+      ],
+      "symptom_combos": [
+        ["swallowed", "bleach"],
+        ["drank", "bleach"],
+        ["swallowed", "poison"],
+        ["drank", "poison"],
+        ["bottle", "pills"],
+        ["overdose", "pills"],
+        ["took", "bottle"]
+      ],
+      "patterns": [
+        "drank.*bleach",
+        "swallowed.*bleach",
+        "drank.*poison",
+        "bottle of.*pills",
+        "took.*entire bottle",
+        "overdose.*",
+        "took too many"
+      ],
+      "first_aid": "If unresponsive, call 911/112. If conscious, call US Poison Help (1-800-222-1222) or local poison control center. Do NOT induce vomiting unless instructed."
+    },
+    {
+      "condition": "Severe Respiratory Distress",
+      "severity": "CRITICAL_EMERGENCY",
+      "keywords": [
+        "cannot breathe at all", "blue lips", "gasping for air", "severe asthma attack",
+        "suffocating", "choking", "turning blue", "severe shortness of breath at rest"
+      ],
+      "symptom_combos": [
+        ["cannot", "breathe"],
+        ["can't", "breathe"],
+        ["blue", "lips"],
+        ["gasping", "air"],
+        ["severe", "asthma"]
+      ],
+      "patterns": [
+        "blue.*lips",
+        "gasping for air",
+        "can'?t breathe at all"
+      ],
+      "first_aid": "Call 911/112 immediately. Use emergency rescue inhaler (albuterol) if prescribed for asthma. Keep sitting in a tripod position."
+    },
+    {
+      "condition": "Active Suicidal Ideation / Crisis",
+      "severity": "CRITICAL_EMERGENCY",
+      "keywords": [
+        "want to kill myself", "want to end my life", "suicidal thoughts", "planning suicide",
+        "want to commit suicide", "going to hang myself", "want to die today", "don't want to live"
+      ],
+      "symptom_combos": [
+        ["kill", "myself"],
+        ["end", "life"],
+        ["commit", "suicide"],
+        ["don't want to live", ""]
+      ],
+      "patterns": [
+        "want to kill myself",
+        "don'?t want to live",
+        "end my life",
+        "commit suicide"
+      ],
+      "first_aid": "You are not alone. Please call or text the Suicide & Crisis Lifeline at 988 (available 24/7, free & confidential) or dial 911/112."
+    },
+    {
+      "condition": "Major Hemorrhage / Arterial Bleeding",
+      "severity": "CRITICAL_EMERGENCY",
+      "keywords": [
+        "arterial bleeding", "blood spurting", "uncontrolled bleeding", "coughing up large amounts of blood",
+        "vomiting blood profusely", "massive hemorrhage"
+      ],
+      "symptom_combos": [
+        ["bleeding", "spurting"],
+        ["vomiting", "blood"],
+        ["uncontrolled", "bleeding"]
+      ],
+      "patterns": [
+        "blood.*spurting",
+        "vomiting.*blood",
+        "uncontrolled.*bleeding"
+      ],
+      "first_aid": "Call 911/112 immediately. Apply firm, direct continuous pressure with a clean cloth. Do NOT remove embedded objects."
+    }
+  ],
+  "out_of_scope_categories": {
+    "diagnosis_requests": {
+      "patterns": [
+        "do i have",
+        "diagnose",
+        "what disease do i have",
+        "tell me what illness i have",
+        "what is wrong with me",
+        "do these symptoms mean i have",
+        "could this be (cancer|lupus|tumor)"
+      ],
+      "keywords": [
+        "diagnose me", "diagnose my", "do i have", "what disease do i have",
+        "what illness is this", "diagnose this", "diagnose"
+      ],
+      "policy_response": "I cannot provide a medical diagnosis. Only a qualified physician or healthcare provider can evaluate clinical signs, order diagnostic lab tests, and diagnose medical conditions."
+    },
+    "prescription_requests": {
+      "patterns": [
+        "prescribe",
+        "write.*prescription",
+        "give me a prescription",
+        "can i increase my dose",
+        "should i double my",
+        "write me a script"
+      ],
+      "keywords": [
+        "prescribe me", "write a prescription", "give me a prescription",
+        "prescribe", "increase my dose", "change my dosage", "double my dose", "write me a script"
+      ],
+      "policy_response": "I cannot issue medical prescriptions or authorize changes to your prescribed dosage. Modifying or prescribing medication requires evaluation and authorization from a licensed prescriber."
+    }
+  }
+}

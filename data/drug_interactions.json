@@ -1,0 +1,121 @@
+{
+  "interactions": [
+    {
+      "pair": ["ibuprofen", "lisinopril"],
+      "severity": "Moderate",
+      "severity_score": 3,
+      "effect": "NSAIDs can diminish the antihypertensive effect of ACE inhibitors and significantly increase the risk of acute renal deterioration and hyperkalemia.",
+      "mechanism": "Inhibition of renal prostaglandins by ibuprofen leads to decreased renal blood flow and sodium/water retention, counteracting the vasodilatory effect of lisinopril.",
+      "clinical_management": "Avoid routine concurrent use. If necessary for short-term pain relief, monitor blood pressure and renal function/serum potassium closely. Consider paracetamol as a safer alternative for pain.",
+      "alternative_recommendation": "Paracetamol is generally preferred for mild-to-moderate pain in patients taking ACE inhibitors like Lisinopril."
+    },
+    {
+      "pair": ["aspirin", "warfarin"],
+      "severity": "Major / Severe",
+      "severity_score": 5,
+      "effect": "Extreme increase in the risk of major life-threatening gastrointestinal hemorrhage and internal bleeding.",
+      "mechanism": "Aspirin causes irreversible platelet inhibition and gastric mucosal damage, which synergizes with Warfarin's anticoagulation (clotting factor suppression).",
+      "clinical_management": "Avoid combination unless explicitly prescribed by a cardiologist with specialized dual antiplatelet/anticoagulant protocols. Immediately report unusual bruising, black tarry stools, or blood in urine.",
+      "alternative_recommendation": "Do not take OTC aspirin products or other NSAIDs while on Warfarin without direct physician approval."
+    },
+    {
+      "pair": ["ibuprofen", "warfarin"],
+      "severity": "Major / Severe",
+      "severity_score": 5,
+      "effect": "Substantially increased risk of gastrointestinal ulceration and life-threatening bleeding.",
+      "mechanism": "Ibuprofen inhibits platelet COX-1 and causes gastric mucosal injury while Warfarin impairs systemic coagulation.",
+      "clinical_management": "Avoid concurrent use. Use Paracetamol for pain management instead under physician supervision.",
+      "alternative_recommendation": "Use Paracetamol (monitoring dose limits) or consult doctor for safer non-NSAID options."
+    },
+    {
+      "pair": ["paracetamol", "alcohol"],
+      "severity": "Moderate to Severe",
+      "severity_score": 4,
+      "effect": "Significantly elevated risk of severe hepatotoxicity (acute toxic liver failure).",
+      "mechanism": "Chronic alcohol intake induces cytochrome P450 CYP2E1, accelerating the conversion of paracetamol into the toxic metabolite NAPQI, depleting protective hepatic glutathione.",
+      "clinical_management": "Individuals consuming 3 or more alcoholic beverages daily should limit paracetamol intake to under 2000mg/day or consult a physician.",
+      "alternative_recommendation": "Avoid alcohol when taking pain relievers, and never exceed recommended dosages."
+    },
+    {
+      "pair": ["sertraline", "tramadol"],
+      "severity": "Major / Severe",
+      "severity_score": 5,
+      "effect": "High risk of life-threatening Serotonin Syndrome and reduced seizure threshold.",
+      "mechanism": "Additive serotonergic activity causing excessive stimulation of central and peripheral serotonin receptors.",
+      "clinical_management": "Avoid combination. Watch for warning signs: mental status changes, hyperthermia, clonus, tremor, diaphoresis, and hyperreflexia.",
+      "alternative_recommendation": "Consult prescriber for non-serotonergic analgesia."
+    },
+    {
+      "pair": ["atorvastatin", "clarithromycin"],
+      "severity": "Major / Severe",
+      "severity_score": 5,
+      "effect": "Substantial increase in atorvastatin blood concentrations, leading to severe rhabdomyolysis and acute kidney failure.",
+      "mechanism": "Clarithromycin is a potent CYP3A4 and OATP1B1/B3 inhibitor, dramatically impairing atorvastatin clearance.",
+      "clinical_management": "Temporarily suspend atorvastatin therapy during the course of clarithromycin or use an alternative antibiotic (e.g. azithromycin).",
+      "alternative_recommendation": "Discuss with prescribing physician to hold statin during antibiotic therapy."
+    },
+    {
+      "pair": ["omeprazole", "clopidogrel"],
+      "severity": "Moderate to High",
+      "severity_score": 4,
+      "effect": "Decreased antiplatelet efficacy of clopidogrel, increasing the risk of adverse cardiovascular thrombotic events / stent thrombosis.",
+      "mechanism": "Omeprazole competitively inhibits CYP2C19, which is required to bioactivate the prodrug clopidogrel.",
+      "clinical_management": "Consider switching gastroprotection to pantoprazole or an H2 blocker (e.g. famotidine), which exhibit minimal CYP2C19 inhibition.",
+      "alternative_recommendation": "Pantoprazole or Famotidine are preferred gastroprotective agents for patients taking Clopidogrel."
+    },
+    {
+      "pair": ["lisinopril", "spironolactone"],
+      "severity": "Moderate",
+      "severity_score": 3,
+      "effect": "Additive potassium-sparing effect causing severe, potentially fatal hyperkalemia.",
+      "mechanism": "Both agents reduce aldosterone activity or excretion of potassium in the distal renal tubule.",
+      "clinical_management": "Monitor serum potassium and creatinine within 1-2 weeks of initiating or titrating therapy. Advise patient against potassium-rich salt substitutes.",
+      "alternative_recommendation": "Routine laboratory monitoring of electrolytes is mandatory."
+    },
+    {
+      "pair": ["metformin", "alcohol"],
+      "severity": "Moderate to Severe",
+      "severity_score": 4,
+      "effect": "Potentiates the risk of lactic acidosis and acute hypoglycemia.",
+      "mechanism": "Alcohol inhibits gluconeogenesis and hepatic lactate uptake, compounding metformin-induced lactate accumulation.",
+      "clinical_management": "Patients should avoid binge drinking and excessive chronic alcohol consumption.",
+      "alternative_recommendation": "Limit or avoid alcohol intake while taking Metformin."
+    },
+    {
+      "pair": ["sildenafil", "nitroglycerin"],
+      "severity": "Severe / Contraindicated",
+      "severity_score": 5,
+      "effect": "Profound, life-threatening systemic vasodilation and catastrophic hypotension.",
+      "mechanism": "Synergistic enhancement of cyclic GMP accumulation via PDE5 inhibition and nitric oxide donation.",
+      "clinical_management": "Absolute contraindication. Sildenafil must NOT be administered within 24 hours of any nitrate preparation (or 48 hours for tadalafil).",
+      "alternative_recommendation": "Seek emergency medical treatment if severe chest pain occurs; inform emergency responders immediately."
+    },
+    {
+      "pair": ["ibuprofen", "aspirin"],
+      "severity": "Moderate",
+      "severity_score": 3,
+      "effect": "Ibuprofen may competitively block low-dose aspirin's irreversible cardioprotective antiplatelet effect and increase GI ulcer risk.",
+      "mechanism": "Competitive binding at the platelet COX-1 catalytic site prevents aspirin from acetylating serine 529.",
+      "clinical_management": "If both are required, take immediate-release aspirin at least 30 minutes before ibuprofen, or wait 8 hours after ibuprofen before taking aspirin.",
+      "alternative_recommendation": "Consider paracetamol for occasional pain when taking daily low-dose aspirin."
+    }
+  ],
+  "class_interaction_rules": {
+    "NSAID + ACE_INHIBITOR": {
+      "severity": "Moderate",
+      "summary": "NSAIDs can blunt blood pressure reduction and increase acute kidney injury risk when combined with ACE inhibitors or ARBs."
+    },
+    "NSAID + ANTICOAGULANT": {
+      "severity": "Major / Severe",
+      "summary": "Combining NSAIDs with blood thinners severely multiplies gastrointestinal and systemic bleeding risks."
+    },
+    "SSRI + NSAID": {
+      "severity": "Moderate",
+      "summary": "SSRIs impair platelet serotonin storage, increasing upper GI bleeding risks when combined with NSAIDs."
+    },
+    "POTASSIUM_SPARING + ACE_INHIBITOR": {
+      "severity": "Moderate",
+      "summary": "Additive hyperkalemia risk requiring routine serum electrolyte monitoring."
+    }
+  }
+}

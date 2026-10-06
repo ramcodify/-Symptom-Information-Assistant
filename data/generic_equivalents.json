@@ -1,0 +1,124 @@
+{
+  "mappings": {
+    "tylenol": {
+      "brand_name": "Tylenol",
+      "generic_name": "Paracetamol / Acetaminophen",
+      "active_ingredient": "Acetaminophen",
+      "therapeutic_equivalence": "AB Rated (Therapeutically and bioequivalently identical)",
+      "average_cost_savings": "70% - 85%",
+      "common_forms": ["500mg Extra Strength Tablets", "325mg Regular Tablets", "160mg/5mL Oral Suspension"],
+      "otc_availability": "Widely available OTC at all pharmacies, supermarkets, and convenience stores.",
+      "switching_guidance": "Generic acetaminophen provides the exact same active chemical molecule, strength, and therapeutic effect as branded Tylenol at a fraction of the cost."
+    },
+    "panadol": {
+      "brand_name": "Panadol",
+      "generic_name": "Paracetamol",
+      "active_ingredient": "Paracetamol (Acetaminophen)",
+      "therapeutic_equivalence": "AB Rated",
+      "average_cost_savings": "65% - 80%",
+      "common_forms": ["500mg Tablets", "Soluble Effervescent Tablets"],
+      "otc_availability": "Widely available OTC.",
+      "switching_guidance": "Generic paracetamol tablets are chemically and functionally identical to Panadol."
+    },
+    "advil": {
+      "brand_name": "Advil",
+      "generic_name": "Ibuprofen",
+      "active_ingredient": "Ibuprofen",
+      "therapeutic_equivalence": "AB Rated",
+      "average_cost_savings": "60% - 80%",
+      "common_forms": ["200mg Tablets/Caplets", "200mg Liquid Gels", "100mg/5mL Children's Suspension"],
+      "otc_availability": "Widely available OTC.",
+      "switching_guidance": "Store-brand ibuprofen (such as generic store labels) has the same active ingredient and purity standards mandated by health regulators."
+    },
+    "motrin": {
+      "brand_name": "Motrin",
+      "generic_name": "Ibuprofen",
+      "active_ingredient": "Ibuprofen",
+      "therapeutic_equivalence": "AB Rated",
+      "average_cost_savings": "60% - 80%",
+      "common_forms": ["200mg Caplets", "Children's 100mg/5mL Liquid"],
+      "otc_availability": "Available OTC.",
+      "switching_guidance": "Generic ibuprofen contains the identical active pharmaceutical ingredient (API)."
+    },
+    "lipitor": {
+      "brand_name": "Lipitor",
+      "generic_name": "Atorvastatin Calcium",
+      "active_ingredient": "Atorvastatin Calcium",
+      "therapeutic_equivalence": "AB Rated (FDA Orange Book bioequivalent)",
+      "average_cost_savings": "80% - 92%",
+      "common_forms": ["10mg, 20mg, 40mg, 80mg Oral Film-Coated Tablets"],
+      "otc_availability": "Prescription Only (Rx)",
+      "switching_guidance": "Generic atorvastatin has demonstrated identical lipid-lowering efficacy and safety profiles in extensive clinical equivalence trials."
+    },
+    "glucophage": {
+      "brand_name": "Glucophage / Glucophage XR",
+      "generic_name": "Metformin Hydrochloride",
+      "active_ingredient": "Metformin Hydrochloride",
+      "therapeutic_equivalence": "AB Rated",
+      "average_cost_savings": "85% - 95%",
+      "common_forms": ["500mg, 850mg, 1000mg Immediate Release", "500mg, 750mg Extended Release (ER)"],
+      "otc_availability": "Prescription Only (Rx)",
+      "switching_guidance": "Generic metformin IR and ER provide identical glycemic control as branded Glucophage."
+    },
+    "zestril": {
+      "brand_name": "Zestril / Prinivil",
+      "generic_name": "Lisinopril",
+      "active_ingredient": "Lisinopril",
+      "therapeutic_equivalence": "AB Rated",
+      "average_cost_savings": "80% - 90%",
+      "common_forms": ["5mg, 10mg, 20mg, 40mg Oral Tablets"],
+      "otc_availability": "Prescription Only (Rx)",
+      "switching_guidance": "Generic lisinopril is therapeutically interchangeable and widely available at very low tier copays."
+    },
+    "norvasc": {
+      "brand_name": "Norvasc",
+      "generic_name": "Amlodipine Besylate",
+      "active_ingredient": "Amlodipine Besylate",
+      "therapeutic_equivalence": "AB Rated",
+      "average_cost_savings": "75% - 88%",
+      "common_forms": ["2.5mg, 5mg, 10mg Tablets"],
+      "otc_availability": "Prescription Only (Rx)",
+      "switching_guidance": "Generic amlodipine besylate tablets meet all bioequivalence specifications of Norvasc."
+    },
+    "prilosec": {
+      "brand_name": "Prilosec / Prilosec OTC",
+      "generic_name": "Omeprazole / Omeprazole Magnesium",
+      "active_ingredient": "Omeprazole",
+      "therapeutic_equivalence": "AB Rated",
+      "average_cost_savings": "60% - 75%",
+      "common_forms": ["20mg Delayed-Release Capsules/Tablets"],
+      "otc_availability": "Available OTC (20mg) and Prescription (40mg).",
+      "switching_guidance": "Generic omeprazole delayed-release delivers identical gastric acid suppression."
+    },
+    "zoloft": {
+      "brand_name": "Zoloft",
+      "generic_name": "Sertraline Hydrochloride",
+      "active_ingredient": "Sertraline Hydrochloride",
+      "therapeutic_equivalence": "AB Rated",
+      "average_cost_savings": "80% - 90%",
+      "common_forms": ["25mg, 50mg, 100mg Film-Coated Tablets"],
+      "otc_availability": "Prescription Only (Rx)",
+      "switching_guidance": "Generic sertraline provides equivalent neuropsychiatric efficacy and tolerability."
+    },
+    "amoxil": {
+      "brand_name": "Amoxil",
+      "generic_name": "Amoxicillin",
+      "active_ingredient": "Amoxicillin",
+      "therapeutic_equivalence": "AB Rated",
+      "average_cost_savings": "70% - 85%",
+      "common_forms": ["250mg, 500mg, 875mg Capsules/Tablets", "125mg/5mL, 250mg/5mL Suspension"],
+      "otc_availability": "Prescription Only (Rx)",
+      "switching_guidance": "Generic amoxicillin provides exact antibacterial equivalence against susceptible organisms."
+    },
+    "plavix": {
+      "brand_name": "Plavix",
+      "generic_name": "Clopidogrel Bisulfate",
+      "active_ingredient": "Clopidogrel Bisulfate",
+      "therapeutic_equivalence": "AB Rated",
+      "average_cost_savings": "85% - 95%",
+      "common_forms": ["75mg, 300mg Tablets"],
+      "otc_availability": "Prescription Only (Rx)",
+      "switching_guidance": "Generic clopidogrel is bioequivalent to Plavix for secondary prevention of atherothrombotic events."
+    }
+  }
+}

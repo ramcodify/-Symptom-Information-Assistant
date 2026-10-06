@@ -1,0 +1,67 @@
+{
+  "documents": [
+    {
+      "id": "who_essential_medicines_001",
+      "title": "WHO Model List of Essential Medicines - Pain and Palliative Care",
+      "source": "World Health Organization (WHO)",
+      "category": "Pain Management & Analgesia",
+      "content": "Non-opioid analgesics such as Paracetamol (Acetaminophen) and Ibuprofen form the foundation of mild to moderate pain management and pyrexia control. Paracetamol is the preferred first-line agent in patients with gastrointestinal sensitivity, renal impairment, or cardiovascular disease. Nonsteroidal anti-inflammatory drugs (NSAIDs) like Ibuprofen are preferred when inflammatory components are present, provided there are no contraindications such as active peptic ulcer disease, severe heart failure, or chronic kidney disease. Concomitant use of multiple NSAIDs is discouraged."
+    },
+    {
+      "id": "who_cardiovascular_hypertension_002",
+      "title": "WHO Guideline for the Pharmacological Treatment of Hypertension in Adults",
+      "source": "World Health Organization (WHO)",
+      "category": "Cardiovascular Health",
+      "content": "First-line pharmacological classes for essential hypertension include Angiotensin-Converting Enzyme (ACE) inhibitors (e.g., Lisinopril), Angiotensin Receptor Blockers (ARBs), Dihydropyridine Calcium Channel Blockers (e.g., Amlodipine), and Thiazide-like diuretics. ACE inhibitors reduce cardiovascular mortality and renal progression in diabetic nephropathy. Common adverse effects include persistent dry cough and risk of hyperkalemia. Concomitant administration of NSAIDs (e.g., ibuprofen, naproxen) may blunt antihypertensive efficacy and provoke acute renal decompensation."
+    },
+    {
+      "id": "who_antimicrobial_resistance_003",
+      "title": "WHO Fact Sheet: Antimicrobial Resistance (AMR) & Antibiotic Stewardship",
+      "source": "World Health Organization (WHO)",
+      "category": "Infectious Diseases & Antibiotics",
+      "content": "Antibiotic resistance is one of the biggest threats to global health, food security, and development today. Antibiotics such as Amoxicillin treat bacterial infections (e.g., streptococcal pharyngitis, bacterial otitis media, bacterial pneumonia) and have NO efficacy against viral infections such as the common cold, acute viral bronchitis, or influenza. Patients must take antibiotics only when prescribed by a certified healthcare professional, complete the full prescribed course, and never share or use leftover antibiotics."
+    },
+    {
+      "id": "who_diabetes_management_004",
+      "title": "WHO Global Report on Diabetes: Metformin as Foundational Pharmacotherapy",
+      "source": "World Health Organization (WHO)",
+      "category": "Endocrinology & Diabetes",
+      "content": "Type 2 diabetes accounts for the vast majority of people with diabetes globally. Metformin is recommended as the initial pharmacologic monotherapy for the treatment of type 2 diabetes due to its proven efficacy, safety profile, weight-neutral or weight-loss benefits, low hypoglycemia risk, and affordability. Gastrointestinal tolerability is optimized by initiating with low doses (500mg daily) and titrating slowly with meals. Renal function (eGFR) should be evaluated prior to initiation and monitored regularly."
+    },
+    {
+      "id": "who_first_aid_heart_attack_005",
+      "title": "Emergency First Aid: Acute Coronary Syndrome & Myocardial Infarction",
+      "source": "International Red Cross & WHO First Aid Guidelines",
+      "category": "Emergency First Aid",
+      "content": "Symptoms of a heart attack include uncomfortable pressure, fullness, squeezing, or pain in the center of the chest lasting more than a few minutes; pain spreading to the shoulders, neck, jaw, or left arm; lightheadedness, sweating, or acute shortness of breath. ACTION: 1. Call emergency services (911/112/999) IMMEDIATELY. 2. Have the patient sit down and rest. 3. If the patient is conscious and not allergic to aspirin, have them chew and swallow one adult aspirin (325mg) or two low-dose aspirins (162mg). 4. Be prepared to initiate Cardiopulmonary Resuscitation (CPR) if the person becomes unresponsive."
+    },
+    {
+      "id": "who_first_aid_stroke_006",
+      "title": "Emergency First Aid: Stroke Recognition and FAST Protocol",
+      "source": "World Stroke Organization & WHO",
+      "category": "Emergency First Aid",
+      "content": "Stroke is a medical emergency requiring urgent intervention to minimize brain damage. Recognize stroke using the F.A.S.T. acronym: F - Face Drooping (Does one side of the face droop when smiling?); A - Arm Weakness (Is one arm weak or numb when raising both arms?); S - Speech Difficulty (Is speech slurred or strange?); T - Time to call emergency services. ACTION: Immediately dial emergency services (911/112/999). Note the exact time symptoms first appeared. Do NOT give food, drink, or medications (including aspirin, as hemorrhagic stroke cannot be excluded without a CT scan)."
+    },
+    {
+      "id": "who_first_aid_anaphylaxis_007",
+      "title": "Emergency First Aid: Acute Severe Allergic Reaction (Anaphylaxis)",
+      "source": "WHO & World Allergy Organization",
+      "category": "Emergency First Aid",
+      "content": "Anaphylaxis is a severe, rapidly developing, life-threatening systemic allergic reaction. Signs include swelling of the lips, tongue, throat, or face, severe wheezing, stridor, difficulty swallowing or breathing, widespread urticaria (hives), dizziness, confusion, or collapse. ACTION: 1. Administer Epinephrine auto-injector (EpiPen) into the outer mid-thigh immediately. 2. Call emergency services (911/112/999). 3. Lay the person flat with legs elevated unless they have difficulty breathing (in which case allow them to sit upright). 4. A second dose of epinephrine may be given after 5 to 15 minutes if symptoms do not improve."
+    },
+    {
+      "id": "who_first_aid_poisoning_008",
+      "title": "Emergency First Aid: Acute Poisoning and Medication Overdose",
+      "source": "WHO Guidelines for Poison Control",
+      "category": "Emergency First Aid",
+      "content": "In cases of accidental ingestion of toxic substances, household chemicals, or medication overdose (e.g., massive paracetamol ingestion): ACTION: 1. If the victim is unconscious, not breathing, or having seizures, call 911/112 immediately. 2. If conscious and stable, call Poison Help Control (1-800-222-1222 in the US or local poison center). 3. Do NOT induce vomiting unless specifically instructed by poison control or medical professionals. 4. Bring the pill bottles or containers to the emergency room."
+    },
+    {
+      "id": "who_generic_medicines_policy_009",
+      "title": "WHO Policy Brief: Quality-Assured Generic Medicines and Bioequivalence",
+      "source": "World Health Organization (WHO)",
+      "category": "Pharmaceutical Policy & Access",
+      "content": "Generic medicines contain the same active pharmaceutical ingredient (API) in the same dosage form, strength, quality, and performance characteristics as innovator branded products. Regulatory agencies require bioequivalence studies demonstrating that generic drugs deliver the identical active compound into the bloodstream at the same rate and extent as brand-name drugs. Switching to quality-assured generics can lower patient out-of-pocket healthcare expenditures by up to 80-90% without compromising therapeutic safety or efficacy."
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "drugs": {
+    "paracetamol": {
+      "generic_name": "Paracetamol (Acetaminophen)",
+      "brand_names": ["Tylenol", "Panadol", "Calpol", "Mapap", "Ofirmev"],
+      "class": "Analgesic & Antipyretic",
+      "mechanism": "Centrally acting inhibitor of prostaglandin synthesis with minimal peripheral anti-inflammatory activity.",
+      "indications": [
+        "Mild to moderate pain (headache, toothache, musculoskeletal pain, osteoarthritis)",
+        "Fever reduction in adults and children"
+      ],
+      "standard_dosage": "Adults: 500mg to 1000mg every 4 to 6 hours as needed. Maximum daily dose: 4000mg (4g) for healthy adults; 2000-3000mg recommended for long-term use or elderly.",
+      "common_side_effects": [
+        "Nausea (mild)",
+        "Headache (rare)",
+        "Stomach upset (uncommon at therapeutic doses)"
+      ],
+      "severe_side_effects": [
+        "Hepatotoxicity (severe acute liver failure in overdose or chronic alcohol intake)",
+        "Rare serious skin reactions (Stevens-Johnson syndrome, toxic epidermal necrolysis)",
+        "Allergic reactions (angioedema, pruritus)"
+      ],
+      "warnings": [
+        "Black Box Warning: Acute liver failure risks associated with doses exceeding 4000mg in 24 hours.",
+        "Check all combination cold/flu products to avoid accidental acetaminophen overdose.",
+        "Use caution in chronic alcohol users (>3 drinks/day) or patients with pre-existing hepatic disease."
+      ],
+      "storage": "Store at room temperature (20°C to 25°C / 68°F to 77°F) away from moisture and excessive heat.",
+      "rx_otc_status": "Over-The-Counter (OTC) / Prescription (IV formulation)",
+      "openfda_rxcui": "161"
+    },
+    "ibuprofen": {
+      "generic_name": "Ibuprofen",
+      "brand_names": ["Advil", "Motrin", "Nurofen", "Brufen", "Midol"],
+      "class": "Nonsteroidal Anti-inflammatory Drug (NSAID)",
+      "mechanism": "Reversibly inhibits cyclooxygenase-1 (COX-1) and cyclooxygenase-2 (COX-2) enzymes, reducing prostaglandin production.",
+      "indications": [
+        "Mild to moderate pain, dysmenorrhea (menstrual cramps)",
+        "Inflammatory conditions (rheumatoid arthritis, osteoarthritis, gout)",
+        "Fever reduction"
+      ],
+      "standard_dosage": "OTC: 200mg to 400mg every 4 to 6 hours with food. Max OTC daily dose: 1200mg. Prescription max: 3200mg/day under medical supervision.",
+      "common_side_effects": [
+        "Dyspepsia (heartburn, indigestion)",
+        "Nausea and stomach discomfort",
+        "Dizziness or mild headache",
+        "Fluid retention and mild edema"
+      ],
+      "severe_side_effects": [
+        "Gastrointestinal ulceration, bleeding, or perforation (can be fatal)",
+        "Cardiovascular thrombotic events (myocardial infarction, stroke)",
+        "Acute renal impairment / nephrotoxicity",
+        "Exacerbation of asthma (aspirin-sensitive asthma)"
+      ],
+      "warnings": [
+        "Black Box Warning: Increased risk of serious cardiovascular thrombotic events and serious gastrointestinal adverse events.",
+        "Avoid taking with other NSAIDs (e.g. naproxen, aspirin) without medical advice.",
+        "Take with food or milk to minimize stomach irritation.",
+        "Avoid during the third trimester of pregnancy due to premature closure of fetal ductus arteriosus."
+      ],
+      "storage": "Store at room temperature (20°C to 25°C) in a dry place.",
+      "rx_otc_status": "Over-The-Counter (OTC) / Prescription (higher strengths)",
+      "openfda_rxcui": "5640"
+    },
+    "lisinopril": {
+      "generic_name": "Lisinopril",
+      "brand_names": ["Prinivil", "Zestril", "Qbrelis"],
+      "class": "Angiotensin-Converting Enzyme (ACE) Inhibitor",
+      "mechanism": "Inhibits ACE, blocking conversion of Angiotensin I to Angiotensin II, causing vasodilation and decreased aldosterone secretion.",
+      "indications": [
+        "Hypertension (high blood pressure)",
+        "Heart failure (adjunctive therapy)",
+        "Post-myocardial infarction (within 24 hours to improve survival)"
+      ],
+      "standard_dosage": "Hypertension: Initial 10mg once daily; maintenance 20-40mg daily as prescribed by a physician.",
+      "common_side_effects": [
+        "Persistent dry cough (ACE inhibitor cough)",
+        "Dizziness and lightheadedness (orthostatic hypotension)",
+        "Headache and fatigue",
+        "Elevated blood potassium (hyperkalemia)"
+      ],
+      "severe_side_effects": [
+        "Angioedema (swelling of lips, tongue, face, or airway - emergency)",
+        "Acute kidney injury",
+        "Severe hypotension"
+      ],
+      "warnings": [
+        "Black Box Warning: Fetal toxicity. Discontinue immediately upon pregnancy detection.",
+        "Do not use potassium supplements or salt substitutes without physician approval.",
+        "Monitor renal function and serum potassium periodically."
+      ],
+      "storage": "Store between 20°C and 25°C. Protect from moisture and excessive light.",
+      "rx_otc_status": "Prescription Only (Rx)",
+      "openfda_rxcui": "29046"
+    },
+    "metformin": {
+      "generic_name": "Metformin Hydrochloride",
+      "brand_names": ["Glucophage", "Fortamet", "Glumetza", "Riomet"],
+      "class": "Biguanide Antidiabetic",
+      "mechanism": "Decreases hepatic glucose production, decreases intestinal absorption of glucose, and improves insulin sensitivity.",
+      "indications": [
+        "Type 2 Diabetes Mellitus (first-line therapy)",
+        "Polycystic Ovary Syndrome (PCOS - off-label)",
+        "Prediabetes management (off-label)"
+      ],
+      "standard_dosage": "Initial: 500mg twice daily or 850mg once daily with meals. Max daily dose: 2000-2550mg in divided doses.",
+      "common_side_effects": [
+        "Diarrhea, nausea, vomiting, abdominal bloating",
+        "Metallic taste in mouth",
+        "Flatulence and loss of appetite"
+      ],
+      "severe_side_effects": [
+        "Lactic acidosis (rare but life-threatening metabolic emergency)",
+        "Vitamin B12 deficiency with long-term use"
+      ],
+      "warnings": [
+        "Black Box Warning: Lactic acidosis risk in renal impairment, sepsis, severe hepatic disease, or excessive alcohol intake.",
+        "Must be temporarily withheld prior to iodinated radiocontrast imaging procedures.",
+        "Take with meals to reduce gastrointestinal side effects."
+      ],
+      "storage": "Store at 20°C to 25°C. Keep container tightly closed.",
+      "rx_otc_status": "Prescription Only (Rx)",
+      "openfda_rxcui": "6809"
+    },
+    "amoxicillin": {
+      "generic_name": "Amoxicillin",
+      "brand_names": ["Amoxil", "Moxatag", "Trimox"],
+      "class": "Beta-Lactam / Penicillin Antibiotic",
+      "mechanism": "Binds to penicillin-binding proteins, inhibiting bacterial cell wall peptidoglycan synthesis.",
+      "indications": [
+        "Bacterial infections of the respiratory tract (otitis media, sinusitis, pneumonia)",
+        "Streptococcal pharyngitis (strep throat)",
+        "Urinary tract infections and skin infections",
+        "H. pylori eradication (in combination regimens)"
+      ],
+      "standard_dosage": "Adults: 250mg to 500mg every 8 hours, or 500mg to 875mg every 12 hours. Complete full course as prescribed.",
+      "common_side_effects": [
+        "Diarrhea and loose stools",
+        "Nausea and vomiting",
+        "Mild skin rash"
+      ],
+      "severe_side_effects": [
+        "Severe anaphylaxis / allergic reaction in penicillin-allergic patients",
+        "Clostridioides difficile-associated diarrhea (severe colitis)",
+        "Severe cutaneous adverse reactions"
+      ],
+      "warnings": [
+        "Contraindicated in individuals with documented severe penicillin allergy.",
+        "Finish the entire prescribed course even if symptoms resolve early to prevent antimicrobial resistance.",
+        "Ineffective against viral infections (colds, flu)."
+      ],
+      "storage": "Tablets/Capsules: 20°C to 25°C. Reconstituted liquid: Store in refrigerator, discard after 14 days.",
+      "rx_otc_status": "Prescription Only (Rx)",
+      "openfda_rxcui": "723"
+    },
+    "atorvastatin": {
+      "generic_name": "Atorvastatin Calcium",
+      "brand_names": ["Lipitor", "Atorva"],
+      "class": "HMG-CoA Reductase Inhibitor (Statin)",
+      "mechanism": "Competitively inhibits HMG-CoA reductase, the rate-limiting enzyme in cholesterol biosynthesis, upregulating LDL receptors.",
+      "indications": [
+        "Hypercholesterolemia (high LDL cholesterol)",
+        "Prevention of cardiovascular events (myocardial infarction, stroke) in high-risk patients"
+      ],
+      "standard_dosage": "10mg to 80mg once daily, taken at any time of day with or without food.",
+      "common_side_effects": [
+        "Myalgia (mild muscle aches)",
+        "Diarrhea or dyspepsia",
+        "Arthralgia (joint pain)",
+        "Mild elevation of liver enzymes"
+      ],
+      "severe_side_effects": [
+        "Rhabdomyolysis (severe muscle breakdown with acute renal failure)",
+        "Severe hepatotoxicity",
+        "Immune-mediated necrotizing myopathy"
+      ],
+      "warnings": [
+        "Report unexplained muscle pain, tenderness, or weakness promptly, especially with dark urine.",
+        "Avoid excessive intake of grapefruit juice (>1 liter/day), which inhibits CYP3A4 metabolism.",
+        "Contraindicated in active liver disease and during pregnancy/breastfeeding."
+      ],
+      "storage": "Store at 20°C to 25°C.",
+      "rx_otc_status": "Prescription Only (Rx)",
+      "openfda_rxcui": "83367"
+    },
+    "omeprazole": {
+      "generic_name": "Omeprazole",
+      "brand_names": ["Prilosec", "Losec", "Zegerid"],
+      "class": "Proton Pump Inhibitor (PPI)",
+      "mechanism": "Irreversibly inhibits H+/K+ ATPase pump in gastric parietal cells, suppressing gastric acid secretion.",
+      "indications": [
+        "Gastroesophageal Reflux Disease (GERD) and heartburn",
+        "Gastric and duodenal ulcers",
+        "Erosive esophagitis",
+        "Zollinger-Ellison syndrome"
+      ],
+      "standard_dosage": "20mg to 40mg once daily taken 30 to 60 minutes before the first meal of the day.",
+      "common_side_effects": [
+        "Headache",
+        "Abdominal pain, nausea, constipation, or diarrhea",
+        "Flatulence"
+      ],
+      "severe_side_effects": [
+        "Clostridioides difficile infection",
+        "Bone fractures (hip, wrist, spine) with long-term high-dose therapy",
+        "Hypomagnesemia, vitamin B12 deficiency with prolonged use",
+        "Acute interstitial nephritis"
+      ],
+      "warnings": [
+        "OTC treatment should generally not exceed 14 consecutive days without medical re-evaluation.",
+        "Do not crush or chew delayed-release capsules/tablets.",
+        "Interacts with Clopidogrel (reduces antiplatelet efficacy)."
+      ],
+      "storage": "Store at 15°C to 30°C. Protect from light and moisture.",
+      "rx_otc_status": "Over-The-Counter (OTC) & Prescription",
+      "openfda_rxcui": "7646"
+    },
+    "amlodipine": {
+      "generic_name": "Amlodipine Besylate",
+      "brand_names": ["Norvasc", "Amlor", "Istin"],
+      "class": "Dihydropyridine Calcium Channel Blocker",
+      "mechanism": "Inhibits transmembrane influx of calcium ions into vascular smooth muscle and cardiac muscle, causing peripheral vasodilation.",
+      "indications": [
+        "Hypertension (high blood pressure)",
+        "Coronary artery disease (chronic stable angina, vasospastic angina)"
+      ],
+      "standard_dosage": "Initial: 5mg once daily; maximum dose: 10mg once daily.",
+      "common_side_effects": [
+        "Peripheral edema (swelling of ankles or lower legs)",
+        "Flushing and feeling warm",
+        "Dizziness and fatigue",
+        "Palpitations"
+      ],
+      "severe_side_effects": [
+        "Severe hypotension / syncope",
+        "Worsening angina or acute MI upon dose initiation/titration (rare)"
+      ],
+      "warnings": [
+        "Monitor blood pressure regularly.",
+        "Peripheral edema is dose-dependent and does not necessarily indicate heart failure.",
+        "Use with caution in patients with severe aortic stenosis or hepatic impairment."
+      ],
+      "storage": "Store at 15°C to 30°C. Protect from light.",
+      "rx_otc_status": "Prescription Only (Rx)",
+      "openfda_rxcui": "17767"
+    },
+    "aspirin": {
+      "generic_name": "Aspirin (Acetylsalicylic Acid)",
+      "brand_names": ["Bayer", "Bufferin", "Ecotrin", "Aspro"],
+      "class": "Salicylate / Antiplatelet & NSAID",
+      "mechanism": "Irreversibly inhibits COX-1, suppressing platelet thromboxane A2 synthesis and platelet aggregation.",
+      "indications": [
+        "Cardiovascular secondary prevention (75mg-100mg daily)",
+        "Acute coronary syndrome / acute MI management",
+        "Pain and fever reduction (higher doses: 325mg-650mg)"
+      ],
+      "standard_dosage": "Cardioprotection: 81mg (low dose) once daily. Pain/fever: 325-650mg every 4-6 hours.",
+      "common_side_effects": [
+        "Dyspepsia and gastric irritation",
+        "Easy bruising and prolonged bleeding time",
+        "Nausea"
+      ],
+      "severe_side_effects": [
+        "Gastrointestinal hemorrhage and ulceration",
+        "Intracranial bleeding",
+        "Reye's syndrome in children/teens recovering from viral infections",
+        "Bronchospasm in aspirin-sensitive patients"
+      ],
+      "warnings": [
+        "NEVER give aspirin to children or teenagers with viral illness (risk of fatal Reye's syndrome).",
+        "High risk of severe bleeding when combined with other anticoagulants (e.g. Warfarin, Apixaban) or NSAIDs.",
+        "Discontinue before elective surgery if instructed by surgeon."
+      ],
+      "storage": "Store at 20°C to 25°C in a dry place.",
+      "rx_otc_status": "Over-The-Counter (OTC)",
+      "openfda_rxcui": "1191"
+    },
+    "warfarin": {
+      "generic_name": "Warfarin Sodium",
+      "brand_names": ["Coumadin", "Jantoven", "Marevan"],
+      "class": "Vitamin K Antagonist / Anticoagulant",
+      "mechanism": "Inhibits vitamin K epoxide reductase, depleting functional vitamin K-dependent clotting factors (II, VII, IX, X).",
+      "indications": [
+        "Prophylaxis and treatment of venous thrombosis and pulmonary embolism",
+        "Prevention of thromboembolic events in atrial fibrillation or prosthetic heart valves"
+      ],
+      "standard_dosage": "Highly individualized based on regular INR (International Normalized Ratio) blood monitoring. Typically 2mg to 5mg daily.",
+      "common_side_effects": [
+        "Mild bruising, prolonged bleeding from small cuts",
+        "Bleeding gums"
+      ],
+      "severe_side_effects": [
+        "Major life-threatening hemorrhage (GI bleeding, intracranial hemorrhage)",
+        "Warfarin-induced skin necrosis",
+        "Purple toe syndrome"
+      ],
+      "warnings": [
+        "Black Box Warning: Major or fatal bleeding risks. Requires frequent INR laboratory testing.",
+        "Extreme number of drug-drug, herbal, and dietary interactions (maintain consistent vitamin K/green leafy vegetable intake).",
+        "Strictly contraindicated in pregnancy (teratogenic)."
+      ],
+      "storage": "Store at 20°C to 25°C. Protect from light.",
+      "rx_otc_status": "Prescription Only (Rx)",
+      "openfda_rxcui": "11289"
+    },
+    "sertraline": {
+      "generic_name": "Sertraline Hydrochloride",
+      "brand_names": ["Zoloft", "Lustral"],
+      "class": "Selective Serotonin Reuptake Inhibitor (SSRI) Antidepressant",
+      "mechanism": "Potently inhibits presynaptic reuptake of serotonin (5-HT), increasing synaptic serotonin levels.",
+      "indications": [
+        "Major Depressive Disorder (MDD)",
+        "Obsessive-Compulsive Disorder (OCD)",
+        "Panic Disorder, Social Anxiety Disorder, PTSD"
+      ],
+      "standard_dosage": "Initial: 25mg to 50mg once daily; maximum dose 200mg daily under psychiatric care.",
+      "common_side_effects": [
+        "Nausea, diarrhea, dry mouth",
+        "Insomnia or somnolence",
+        "Sexual dysfunction (decreased libido, delayed ejaculation)",
+        "Tremor and sweating"
+      ],
+      "severe_side_effects": [
+        "Serotonin Syndrome (fever, agitation, tremor, hyperreflexia - emergency)",
+        "Suicidal thoughts/behaviors in young adults (<=24 yrs)",
+        "Hyponatremia / SIADH",
+        "Increased bleeding risk when combined with NSAIDs"
+      ],
+      "warnings": [
+        "Black Box Warning: Increased risk of suicidal thinking in children, adolescents, and young adults during early therapy.",
+        "Do not discontinue abruptly (risk of discontinuation syndrome).",
+        "Do not combine with MAOIs or other strong serotonergic agents."
+      ],
+      "storage": "Store at 20°C to 25°C.",
+      "rx_otc_status": "Prescription Only (Rx)",
+      "openfda_rxcui": "36437"
+    }
+  }
+}
